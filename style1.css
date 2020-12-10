@@ -1,0 +1,202 @@
+p.head1{
+	 
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2vw;
+  font-weight: normal;
+  color: #FF5733;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  line-height: 2 ;
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+}
+ div.one{
+	  font-size: 2vw;
+  font-weight: normal;
+  color: #125E8D;
+	 height:50px;
+	 background:#125E8D;
+	 display: flex;
+	 align-items: center;
+	 justify-content:center;
+	  
+ }
+p.para{
+	 
+   font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+  font-weight: normal;
+  color: #125E8D;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  text-align: justify;
+  line-height: 1.6 ;
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+}
+p.para1{
+	 
+   font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+  font-weight: normal;
+  color: #125E8D;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  text-align: justify;
+  line-height: 1.6 ;
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+}
+
+h.head_font{font-size: 2vw;}
+h.head_font_track{font-size: 1.2vw;color: #125E8D;}
+h.head_font1{ font-size: 1.5vw;color: #125E8D;}/*Role in conf*/
+h.head_font2{ font-size:.9vw;color: #125E8D;}/*Organizing Committee*/
+div.head_font3{font-size: 1.2vw;} /*Advisory Committee*/
+h.head_font3{color: #125E8D;}/*Affiliation*/
+
+  
+  
+  
+p.head2{
+	 
+   font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #125E8D;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  
+  line-height: 2 ;
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+}
+
+ul.list1{
+	 
+   font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+  font-weight: normal;
+  color: #125E8D;
+  
+  text-align: justify;
+  
+  line-height: 1.25 ;
+ 
+}
+
+he2{
+	 
+   font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #125E8D;
+  line-height: 0 ;
+  margin-top: 1 ;
+  margin-bottom:.5 ;
+}
+ 
+he2 a{
+	 
+   font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+  font-weight: normal;
+  color: #125E8D;
+  line-height: 1 ;
+  margin-top: 1 ;
+  margin-bottom:.5 ;
+}
+.column100 {
+  float: left;
+  width: 100%;
+  padding: 10px;
+ /*  height: auto; Should be removed. Only for demonstration */
+}
+ 
+/* Create two equal columns that floats next to each other */
+.column10 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+ /*  height: auto; Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row10:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1000px) {
+   p.para{
+	 
+   font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #125E8D;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  text-align: justify;
+  line-height: 1.6 ;
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+}
+h.head_font{font-size: 18px;}
+h.head_font_track{font-size: 16px;}
+h.head_font1{ font-size: 16px;color: #125E8D;}/*Role in conf*/
+h.head_font2{ font-size:10px;color: #125E8D;}/* Organizing Committee*/
+div.head_font3{font-size: 16px;color: red;padding: 1px;} /*Advisory Committee*/
+ 
+h.head_font4{font-size: 1.2vw;color: #125E8D;}/*Affiliation*/
+
+/* date */
+p.para1{
+	 
+   font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #125E8D;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  text-align: justify;
+  line-height: 1.6 ;
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+}
+ 
+.column10 {
+  float: left;
+  width: 100%;
+  padding-top:0px;
+  padding-left:10px;
+  padding-left:10px;
+  margin-top:0px;
+ /*  height: auto; Should be removed. Only for demonstration */
+}
+ 
+
+}
+
+
